@@ -26,6 +26,7 @@ shader_parameter/normal_sampler = ExtResource("4_ntsjs")
 height = 2.96072
 
 [node name="Tree1Geo" type="MeshInstance3D"]
+gi_mode = 2
 mesh = ExtResource("1_1cwwe")
 surface_material_override/0 = SubResource("ShaderMaterial_ry36w")
 surface_material_override/1 = ExtResource("3_ptm8d")
