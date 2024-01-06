@@ -58,3 +58,7 @@ lifetime = 0.5
 transform_align = 3
 process_material = SubResource("ParticleProcessMaterial_bdkbe")
 draw_pass_1 = SubResource("QuadMesh_p1s33")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+light_color = Color(1, 0.901961, 0.458824, 1)
+light_energy = 0.5
