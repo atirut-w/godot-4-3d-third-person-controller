@@ -16,4 +16,6 @@ void fragment() {
 	NORMAL_MAP = normal;
 	ALPHA = albedo.a;
 	ALPHA_SCISSOR_THRESHOLD = 0.5;
+	
+	BACKLIGHT = albedo.rgb * 0.5;
 }
